@@ -1,0 +1,102 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,p,div,img,li{
+    margin: 0;
+    padding:0px 0px;
+}
+
+:root{
+    --poppins : 'Poppins', sans-serif;
+    --primary_color : #1C1E53;
+    --secondary_color: #282938;
+    --white_color :#F4F6FC;
+    --button_color :#FCD980;
+}
+/* Navber Css start */
+
+
+#Navber_Part{
+    background: #1C1E53;
+    padding: 32px 0px;
+} 
+.custom_navbar a{
+color: var(--White, #FFF);
+font-family: var(--poppins);
+font-size: 16px;
+font-weight: 500;
+margin-right: 25px;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    color: var(--white_color);
+    padding: 16px 45px ;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.37);
+}
+
+.bannner_left h1{
+    color:var(--white_color);
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px; 
+}
+
+.bannner_left p{
+    color: var(--white_color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    opacity: 0.7;
+}
+.view_work a{
+    padding: 15px 56px;
+    display: inline-block;
+    background-color: var(--button_color);
+    border-radius: 41px;
+   
+ }
+ .view_pricing {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: var(--white_color);
+    
+  }
+.view_pricing  a{
+    color: var(--White, #FFF);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+
+
+
+
+
+
+/* Navber Css End */
